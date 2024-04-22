@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>I am 112550105</title>
+    <style>
+		
+		body {background-color:lightgreen;line-height:2;}
+		img {width:2.6%;height:auto;float:left ;}
+		footer{display:block;clear:both;text-align:left;background:linear-gradient(to left,orange,yellow)}
+		header{background-color:green;}
+ˇ
+	</style>
+	
+  </head>
+  <body>
+    <header>
+	<img src="s.jpg">
+	<h2 style="color:black ;background-color:green;line-height :2">個人小檔案(表單版_Form)_Hw#02-P1</h2>
+    </header>
+	<form method="POST" action="mailto:ting12141412.cs12@nycu.edu.tw">
+	<fieldset>
+	<legend style="color:red">個人基本資訊</legend>
+	<label for="Cname">姓名:</label><input type= "text" id="Cname" name="Username"><br>
+	<label for="Sid">學號:</label><input type= "text" id="Sid" name="StdID"><br>
+	年級:
+	<input type= "radio" id="one" name="Grade" value="one"checked>
+	<label for="one">大一</label>
+	<input type= "radio" id="two"name="Grade"value="two">
+	<label for="two">大二</label>
+	<input type= "radio" id="three"name="Grade"value="three">
+	<label for="three">大三</label>
+	<input type= "radio" id="four"name="Grade"value="four">
+	<label for="four">大四</label>
+	<input type= "radio"id="five" name="Grade"value="five">
+	<label for="five">延畢</label>
+	<input type= "radio" id="six"name="Grade" value="six">
+	<label for="six">研究所以上</label>
+	</fieldset>
+	<fieldset>
+	<legend style="color:red">其他資訊</legend>
+	<section>
+	1.興趣(愛好)-平時休閒時，你喜歡下列哪些活動(可複選)?<br>
+	<input type="checkbox" id="read" name="Hobby"value="read">
+	<label for="read">閱讀</label>
+	<input type="checkbox" id="ball "name="Hobby"value="ball">
+	<label id="ball">打球/體能訓練</label>
+	<input type="checkbox" id="shopping"name="Hobby"value="shopping">
+	<label for="shopping">逛街</label>
+	<input type="checkbox" id="music-listening" name="Hobby" value="music-listening"checked>
+	<label for="music-listening">聽音樂</label><br>
+	</section>
+	<section>
+	2.系統工具--本學期的幾次作業，你使用過哪些瀏覽器程式(可複選)?<br>
+	<label for="browsers-select"></label>
+	<select size="3" name="Browsers" id="browsers-select" multiple>
+		<option value="Google Chrome" selected>Google Chrome</option>
+		<option value="Mozila Firefox">Mozila Firefox</option>
+		<option value="Microsoft Edge">Microsoft Edge</option>
+		<option value="macOS Safari">macOS Safari</option>
+	</select>
+	<br>*操作提示(複選，適用於Windows系統):移動滑鼠指標(pointer)到指定選項，然後同時按住電腦鍵盤的CTRL+滑鼠左鍵<br>
+	</section>
+	<section>
+	3.遭遇問題--有關進行中的學期專案，簡單描述你碰過那些問題?<br>
+	<TEXTAREA NAME="hw-Trouble" id="feedback" ROWS="5" COLS="40" placeholder="1.選定專案主題. 2...."></TEXTAREA>
+	</section>
+	<section>4.本次作業，你的繳交時間:
+	<input type="datetime-local" id="time" name="submit-time" value=""  />
+	</section>
+	</fieldset>
+	<input type="submit" value="提交">
+	<input type="reset" value="重新輸入"><br>
+	<input type="button"  style="color:red" value="回到前頁(Back to Previous Page)"onclick="history.back()"><br>
+    </form>
+	<footer>
+	<h5 style="color:blue">Hw#2 摘要資訊(Summary Information of Hw#2)</h5>
+	<ul>
+		<li>內容:P1_HTML-Form+P2_HTML-Table</li>
+		<li>繳交期限:2024.04.07</li>
+	</ul>
+      
+	  
+    </footer>
+  </body>
+</html>
